@@ -1,0 +1,97 @@
+@import  url('https://fonts.googleapis.com/css?family=Exo:400,700|Josefin+Slab:400,700');
+
+/* HEADER AN FOOTER STYLING */
+.dHeader {
+	background: url("../Images/monkees.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center top;
+
+}
+body {
+	background-color: #dedede;
+}
+.dHeader .dHeadImage {
+	min-height: 50vh;
+}
+.dNavigation {
+	background-color: #931919;
+	font-family: "Josefin Slab";
+	font-weight:700;
+	
+}
+.dHeader a {
+	color:#fff;
+	transition:.5s ease-in;
+}
+.dHeader a:hover {
+	color:#329f69;
+}
+.active {
+	font-size: 1.1em;
+	color: #329f69 !important;
+}
+
+.dFooter {
+	background-color: #931919;
+	font-size: 2em;
+
+}
+.dNavigation a img {
+	height:40px;
+	width:70px;
+}
+.titleText {
+	font-family: "Josefin Slab";
+	font-weight: 700;
+}
+.contentText {
+	font-family: "Exo";
+}
+.dConHeader .contentText {
+	line-height: .5em;
+}
+
+.dListTitle {
+	text-align: center;
+	background-color: #c37f7f;
+	font-family: "Josefin Slab";
+	font-weight: 700;
+	font-size: 1.2em;
+	color: #fff;
+}
+.dListContent {
+	font-family: "Exo";
+}
+
+.dForm {
+	width: 20em;
+}
+.dJumbo {
+	background-color: #c37f7f;
+}
+.dPubImages {
+	max-height: 10em;
+
+}
+.dPlay {
+	color: #66b266;
+}
+.dPause {
+	color: #dcae1d;
+}
+.dStop {
+	color: red;
+}
+.dContactHead .titleText{
+	
+	font-weight: 700;
+
+}
+.dMediaIcons {
+	color: #dedede;
+	transition: .5s .25s ease-in-out;
+}
+.dMediaIcons:hover{
+	color: #329f69;
+}
